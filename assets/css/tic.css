@@ -1,0 +1,158 @@
+body, html{
+		margin: 0;
+		padding: 0;
+		background: #efefef;
+		height: 100%;
+}
+
+body{
+	color: white;
+	font-family: cursive;
+	background: #232323;
+	border-radius: 15px;
+	width: 70%;
+	height: 92%;
+	margin: 0 auto;
+	box-shadow: 0px 8px 16px 0px #232323;
+}
+h1{
+	font-size: 40px;
+	color: white;
+	text-align: center;
+	background: steelblue;
+	border-radius: 15px 15px 0px 0px;
+	height: 60px;
+	line-height: 60px;
+	margin-bottom: 0;
+}
+ h2{
+ 	font-size: 34px;
+ }
+
+span{
+	color: black;
+}
+
+#container{
+	margin: 8px auto;
+	width: 35%;
+	background: rgba(50,50,50,0.3);
+	height: 320px;
+}
+
+.square{
+	width: 32%;
+	height: 31.7%;
+	float: left;
+	margin: 0.66%;
+	font-size: 50px;
+	line-height: 112px;
+	text-align: center;
+	color: steelblue;
+	background: #f7f7f7;
+	cursor: pointer;
+}
+
+.square:nth-child(2n){
+	background: #e1e1e1;
+
+}
+
+
+#newGame{
+	float: left;
+	margin: 20px;
+}
+
+
+#scoreKeeper{
+	width: 30%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#scoreKeeper p{
+	font-size: 20px;
+}
+
+.both{
+	height: 50px;
+}
+
+.p{
+	margin: 0;
+}
+
+.player{
+	margin-bottom: 40px;
+}
+
+.pDisplay{
+	color: steelblue;
+}
+
+#winningScoreDisplay{
+	color: steelblue;
+}
+
+button{
+	padding: 8px;
+	background: transparent;
+	border: none;
+	color: white;
+	font-family: cursive;
+	font-size: 20px;
+	width: 150px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	border-radius: 8px;
+	outline: none;
+}
+
+button:hover{
+	transition: 0.4s all;
+	border-radius: 8px;
+	background: steelblue;
+	color: white;
+	cursor: pointer;
+	box-shadow: 0px 8px 14px 0px rgba(20,20,190,0.3);
+}
+
+.nrBttn{
+	width: 150px;
+    margin: 0 auto;
+}
+.winner{
+	color: green;
+}
+
+.pName{
+	text-align: center;
+	font-size: 25px;
+	width: 20%;
+	height: 200px;
+	margin: 50px 30px;
+	letter-spacing: 4px;
+}
+
+.p1Style{
+	float: left;
+}
+
+.p2Style{
+	float: right;
+}
+
+img{
+	height: 120px;
+	width: 120px;
+	margin: 0 auto;
+	display: none;
+}
+.win{
+	color: maroon;
+	font-weight: bold;
+}
+
+
+

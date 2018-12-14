@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tic Tac Toe</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/tic.css">
+	<script type="text/javascript" src="assets/js/lib/jquery-3.3.1.js"></script>
+</head>
+<body>
+
+	<div class="head">
+	<h1> <span>x</span> Tic <span>Tac</span> Toe <span>x</span> </h1>
+	</div>
+
+
+	<div class="body">
+		<button id="newGame">New Game</button>
+
+		<div style="float: right; margin: 0 20px;">
+			<div class="both">
+				<p class="p"> Player 1 </p>
+				<input type="text" class="player">
+			</div>
+			<div class="both">
+				<p class="p"> Player 2 </p>
+				<input type="text" class="player">
+			</div>
+		</div>
+
+		<div id="scoreKeeper">
+			<h2> <span class="pDisplay" >0</span> to <span class="pDisplay"> 0 </span> </h2>
+			<p> Playing to: <span id="winningScoreDisplay">3</span> </p>
+			<input type="number" id="numInput">	
+		</div>
+		
+
+		<div class="pName p1Style">
+			<h3> Player 1 </h3>
+			<img src="">
+		</div>
+		<div class="pName p2Style">
+			<h3> Player 2 </h3>
+			<img src="">
+		</div>
+
+		<div id="container">
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+		</div>
+
+		<div class="nrBttn"><button id="nxtRound">Next Round</button></div>
+	</div>
+
+
+	<script type="text/javascript" src="assets/js/tic.js"></script>
+</body>
+</html>
